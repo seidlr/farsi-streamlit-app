@@ -1,4 +1,6 @@
 -r requirements.txt
+protobuf~=3.19.0
+streamlit==1.17.0
 black
 flake8
 isort

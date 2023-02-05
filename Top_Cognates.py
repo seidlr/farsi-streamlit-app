@@ -16,9 +16,12 @@ st.markdown("# German/Farsi Top Cognates")
 
 st.markdown(
     """
-    [Here]() are some great tips from Tim Ferriss on how to learn new languages.  
+    [Here](https://tim.blog/2014/03/21/how-to-learn-a-foreign-language-2) are some great tips from Tim Ferriss on how to learn new languages.  
     
-    > Tipp #2: Learn cognates: your friend in every single language  
+    > Tipp #1: Learn the right words, the right way.  
+    > **Tipp #2: Learn cognates: your friend in every single language**  
+    > Tipp #3: Interact in your language daily without traveling.
+    ...
     
     As I could not find a page that had all cognates for German/Persian, I build one.  
     

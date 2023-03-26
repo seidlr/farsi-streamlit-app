@@ -26,10 +26,10 @@ categories = st.sidebar.multiselect(
 )
 
 txt = st.sidebar.text_input('Search word')
-print(txt)
+# print(txt)
 filtered_cognates =  cognates[cognates['src'].str.startswith(tuple(categories))].copy()
 
-if txt and len(txt) > 2:
+if txt and len(txt) > 1:
     filtered_cognates  = filtered_cognates[filtered_cognates['src'].str.contains(txt) ].copy()
 st.write("### Cognates German / Farsi")
 st.dataframe(filtered_cognates, use_container_width=True)
